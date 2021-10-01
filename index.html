@@ -4,9 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;900&display=swap"
+      rel="stylesheet"
+    />
     <script src="./script.js"></script>
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="wrapper">
+        <h1>Sign up for the latest updates</h1>
+        <div class="signup-content">
+          <p>EMAIL ADDRESS</p>
+
+          <input type="text" />
+          <div class="arrow-container">
+            <img src="./images/arrow-right.svg" alt="" />
+          </div>
+          <div class="invalid-popup">
+            <div class="picture">
+              <img src="./images/alert-triangle.svg" alt="" />
+            </div>
+            <div class="text-content">
+              <p>Please use a valid email</p>
+              <p>Like: person@inbox.com</p>
+            </div>
+          </div>
+        </div>
+        <!-- End of signup content -->
+      </div>
+      <div style="display: none" class="confirmation-content clearfix">
+        <div class="picture">
+          <img src="./images/check.svg" alt="" />
+        </div>
+        <div class="text-content">
+          <p>Yay! Thank you</p>
+          <p>We've sent a confirmation link to your inbox.</p>
+        </div>
+      </div>
+      <!-- End of wrapper -->
+    </main>
+  </body>
 </html>
